@@ -1,9 +1,14 @@
-import Image from 'next/image'
+import Image from "next/image";
+import { Feed } from "./components/Feed";
+
+// 새로운 이미지를 올리는 화면
+// feeds 다른사람들의 피드를 보는 화면
+// my 내 정보화면
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
-      배포를 진행하겠습니다 11:46
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Feed />
+    </main>
   );
 }
