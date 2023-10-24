@@ -1,3 +1,3 @@
-export default function feed(){
-    return <div>feed</div>
-}
+export default function Detail() {
+    return <div>Feed detail</div>;
+  }
